@@ -11,6 +11,6 @@ const Spiderman = require('./../app/spiderman')
 
       test('Usando metodo para obtener informacion getInfo()', () => {
         const Andrew = new Spiderman("Amazing Spiderman", 35, "Andrew G", 3, "Sony")
-        expect(Andrew.getInfo()).toBe("Soy el Sorprendente hombre araña del Estudio Sony")
+        expect(Andrew.getInfo()).toBe("Soy the Amazing Spiderman del Estudio Sony")
       });
   })
