@@ -8,7 +8,7 @@ class Spiderman{
     }
 
     getInfo(){
-
+        return `Soy the ${this.name} del Estudio ${this.studio}`
     }
 }
 
