@@ -8,4 +8,9 @@ const Spiderman = require('./../app/spiderman')
         expect(tobey.movies).toBe(4);
         expect(tobey.studio).toBe("Sony");
       });
+
+      test('Usando metodo para obtener informacion getInfo()', () => {
+        const Andrew = new Spiderman("Amazing Spiderman", 35, "Andrew G", 3, "Sony")
+        expect(Andrew.getInfo()).toBe("Soy el Sorprendente hombre araña del Estudio Sony")
+      });
   })
